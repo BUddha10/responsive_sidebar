@@ -90,7 +90,10 @@
   background-color: #f3f4f6;
 }
 
-/* making responsive */
+
+/* ===================================================================================== */
+ /* making responsive */
+/* ===================================================================================== */
 
 @media screen and (max-width: 768px) {
   .sidebar {
@@ -110,4 +113,28 @@
     margin-bottom: 10px;
     margin-right: 0;
   }
+}
+
+
+/* ========================================================================= */
+
+/* night mode */
+.night-sidebar {
+  background-color: #312e81;
+  color: #b4bbc7;
+}
+
+.night-active {
+  background-color: #4338ca;
+}
+
+/* light mode */
+.light-sidebar {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.light-active {
+  background-color: #d1d5db;
+  color: #111827;
 }
