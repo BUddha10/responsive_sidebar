@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111827;
+  width: 225px;
+  height: 100vh;
+  color: #9ca3af;
+}
+
+.logo {
+  font-size: 24px;
+  padding-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.brand {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebarTop,
+.sidebarMiddle,
+.sidebarButtom {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.list_item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.list-item-logo {
+  width: 30px;
+  font-size: 20px;
+}
+
+.list_item:hover,
+.active {
+  background-color: #374151;
+  color: white;
+}
+
+.sidebarButtom {
+  border: none;
+  justify-content: center;
+}
+
+.color_box {
+  width: 25;
+  height: 25px;
+  border: 1px solid rgb(155, 144, 144);
+  border-radius: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #111827;
+}
+
+.night {
+  background-color: #312e81;
+}
+
+.light {
+  background-color: #f3f4f6;
+}
